@@ -1,5 +1,4 @@
-require_relative "nordot/ruby/client/version"
-require_relative "nordot/ruby/client"
+require_relative "nordot/api/version"
 
 # api client
 require "faraday"
@@ -11,3 +10,4 @@ require 'hashie'
 require 'active_support'
 require 'active_support/core_ext'
 
+require_relative "nordot/api/client"

@@ -1,6 +1,6 @@
-RSpec.describe Nordot::Ruby::Client do
+RSpec.describe Nordot::Api::Client do
   it "has a version number" do
-    expect(Nordot::Ruby::Client::VERSION).not_to be nil
+    expect(Nordot::Api::VERSION).not_to be nil
   end
 
   it "does something useful" do

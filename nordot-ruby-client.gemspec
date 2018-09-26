@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "nordot/ruby/client/version"
+require "nordot/api/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "nordot-ruby-client"
-  spec.version       = Nordot::Ruby::Client::VERSION
+  spec.name          = "nordot-api-client"
+  spec.version       = Nordot::Api::VERSION
   spec.authors       = ["luckypool"]
   spec.email         = ["luckypool314@gmail.com"]
 

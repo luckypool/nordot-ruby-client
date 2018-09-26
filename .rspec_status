@@ -1,0 +1,4 @@
+example_id                            | status | run_time        |
+------------------------------------- | ------ | --------------- |
+./spec/nordot/api/client_spec.rb[1:1] | passed | 0.0014 seconds  |
+./spec/nordot/api/client_spec.rb[1:2] | failed | 0.02052 seconds |

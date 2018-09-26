@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "nordot/ruby/client"
+require "nordot-ruby-client"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
